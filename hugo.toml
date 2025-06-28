@@ -1,0 +1,66 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "CTO Advisory"
+theme = "agnes"
+
+[params]
+	dateFormat = "Jan 2, 2023" 
+	authorName = "CTO Advisory"
+	google_analytics_id = "GA-"
+	
+[menu]
+	[[menu.main]]
+		Name = "Contact"
+		URL = "mailto:contact@cto-advisory.com"
+		weight = 1
+	
+	[[menu.main]]
+		Name = "About us"
+		URL = "mailto:info@cto-advisory.com"
+		weight = 2
+	
+	[[menu.main]]
+		Name = "FAQ's"
+		URL = "mailto:support@cto-advisory.com"
+		weight = 3
+	
+	[[menu.main]]
+		Name = "Support"
+		URL = "mailto:support@cto-advisory.com"
+		weight = 4
+		
+[params.social]
+	TwitterURL = "#"
+	GoogleURL = "http://google.com"
+	FacebookURL = "#"
+		
+[params.content]
+	LeadTitle = "CTO Advisory & Angel Investments"
+	LeadDescription = "Providing strategic advice to startups and making angel investments to help them grow."
+	ButtonCaption = "Get in Touch"
+	ButtonURL = "mailto:contact@cto-advisory.com"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+	FeatureTitle = "Startup Advising"
+	FeatureDescription = "From technology strategy to product roadmap, we help you build a solid foundation for your startup."
+	FeatureImage = "images/feature-1.png"
+	
+[[params.feature]]
+	FeatureTitle = "Angel Investing"
+	FeatureDescription = "We invest in early-stage startups with a strong team and a clear vision."
+	FeatureImage = "images/feature-2.png"
+
+[[params.feature]]
+	FeatureTitle = "Technology Due Diligence"
+	FeatureDescription = "We provide technical due diligence for investors and acquirers."
+	FeatureImage = "images/feature-3.png"
+	
+[[params.feature]]
+	FeatureTitle = "Interim CTO"
+	FeatureDescription = "We can step in as an interim CTO to lead your technology team through a critical phase."
+	FeatureImage = "images/feature-4.png"
+	
+	
+
