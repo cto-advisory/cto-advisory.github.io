@@ -2,6 +2,7 @@ baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "CTO Advisory"
 theme = "agnes"
+publishDir = "."
 
 [params]
 	dateFormat = "Jan 2, 2023" 
